@@ -11,8 +11,8 @@ int Relay = 4;
 DHT dht(DHTPIN, DHTTYPE);
 
 int Mode;
-const char *ssid = "CCTV01_2.4GHz"; 
-const char *password = "0912322063"; 
+const char *ssid = "id"; 
+const char *password = "password"; 
 
 const char *mqtt_broker = "broker.hivemq.com"; 
 const char *topic_control = "Pump/Control";
